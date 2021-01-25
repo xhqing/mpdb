@@ -29,7 +29,7 @@ for path in path_list:
         break
 
 if not find_pdb:
-    print('mpdb install failed. pdb.py not find.')    
+    print('mpdb install failed. pdb.py not found.')    
 
 
 
