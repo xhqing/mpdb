@@ -39,7 +39,7 @@ mpdb_cmd.py must be in the directory where the main program Python file
 which you want to debug is, so recommend use 'mv' command to move mpdb_cmd.py
 if you need change main program which you want to debug.
 
-# Installation:
+# Installation
 Running install.py like below:
 ```bash
 python3 install.py
