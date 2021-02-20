@@ -3,6 +3,7 @@ import os
 
 p = sys.path
 try: 
+    # clean nohup.out
     f = open('nohup.out','w') 
     f.close()
 except: 
