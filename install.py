@@ -17,8 +17,8 @@ for path in path_list:
     if '/pdb.py' in path:
         find_pdb = True
         target_path = path.replace('/pdb.py','/mpdb.py')
-        flag = os.system("cp mpdb.py {}".format(target_path))
-        if not flag:
+        failed = os.system("cp mpdb.py {}".format(target_path))
+        if not failed:
             print('mpdb install seccessfully!')
         else:
             print('mpdb install failed.')
