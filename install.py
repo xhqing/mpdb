@@ -2,12 +2,7 @@ import sys
 import os
 
 p = sys.path
-try: 
-    # clean nohup.out
-    f = open('nohup.out','w') 
-    f.close()
-except: 
-    pass
+os.system("> nohup.out")
 
 for path in p:
     os.system("nohup find {} -name pdb.py".format(path))
